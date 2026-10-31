@@ -1,0 +1,47 @@
+:root {
+    --main-color: blue;
+    --bg-color: lightgray;
+    --text-color: black;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial;
+    line-height: 1.6;
+}
+
+/* Element Selector */
+h1 {
+    font-size: 30px;
+    color: white;
+}
+
+/* ID Selector */
+#hero {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 30px;
+}
+
+/* Class Selector */
+.card {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Button */
+button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px;
+    border: none;
+}
